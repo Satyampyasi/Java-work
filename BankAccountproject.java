@@ -27,7 +27,7 @@ public class BankAccountproject {
      }
      public static void main(String[] args) {
           BankAccountproject b1 = new BankAccountproject();
-          b1.balance =2000;
+          b1.balance = 2000;
           b1.accountNumber =459466464l;
           b1.ifsccode = "satya487545";
           b1.withdrow(1500);
