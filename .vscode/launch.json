@@ -1,0 +1,274 @@
+{
+     // Use IntelliSense to learn about possible attributes.
+     // Hover to view descriptions of existing attributes.
+     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+     "version": "0.2.0",
+     "configurations": [
+          {
+               "name": "Attach to Chrome",
+               "port": 9222,
+               "request": "attach",
+               "type": "chrome",
+               "webRoot": "${workspaceFolder}"
+          },
+
+          {
+               "type": "java",
+               "name": "Current File",
+               "request": "launch",
+               "mainClass": "${file}"
+          },
+          {
+               "type": "java",
+               "name": "BankAccount",
+               "request": "launch",
+               "mainClass": "BankAccount",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "BankAccountInfo",
+               "request": "launch",
+               "mainClass": "BankAccountInfo",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "BankAccountdetail",
+               "request": "launch",
+               "mainClass": "BankAccountdetail",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "BankAccountproject",
+               "request": "launch",
+               "mainClass": "BankAccountproject",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Calaculator",
+               "request": "launch",
+               "mainClass": "Calaculator",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "CarDetails",
+               "request": "launch",
+               "mainClass": "CarDetails",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Carrental",
+               "request": "launch",
+               "mainClass": "Carrental",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Employee",
+               "request": "launch",
+               "mainClass": "Employee",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "EmployeeLogin",
+               "request": "launch",
+               "mainClass": "EmployeeLogin",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Flipkart",
+               "request": "launch",
+               "mainClass": "Flipkart",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Fullstackjavaprogram",
+               "request": "launch",
+               "mainClass": "Fullstackjavaprogram",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Furniture",
+               "request": "launch",
+               "mainClass": "Furniture",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "GFG",
+               "request": "launch",
+               "mainClass": "GFG",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Info",
+               "request": "launch",
+               "mainClass": "Info",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "LeapYear",
+               "request": "launch",
+               "mainClass": "LeapYear",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "NumberCheck",
+               "request": "launch",
+               "mainClass": "NumberCheck",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Numberbig",
+               "request": "launch",
+               "mainClass": "Numberbig",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "NumberofDigit",
+               "request": "launch",
+               "mainClass": "NumberofDigit",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "first",
+               "request": "launch",
+               "mainClass": "Practise.first",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "ProductSatyam",
+               "request": "launch",
+               "mainClass": "ProductSatyam",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "SatyamCompany",
+               "request": "launch",
+               "mainClass": "SatyamCompany",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Sbiyono",
+               "request": "launch",
+               "mainClass": "Sbiyono",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Scolarship",
+               "request": "launch",
+               "mainClass": "Scolarship",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "SpeedMonitor",
+               "request": "launch",
+               "mainClass": "SpeedMonitor",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Student",
+               "request": "launch",
+               "mainClass": "Student",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Testintrange",
+               "request": "launch",
+               "mainClass": "Testintrange",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Testrelaton",
+               "request": "launch",
+               "mainClass": "Testrelaton",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "Testshortrange",
+               "request": "launch",
+               "mainClass": "Testshortrange",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "YongestFinder",
+               "request": "launch",
+               "mainClass": "YongestFinder",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "condition",
+               "request": "launch",
+               "mainClass": "condition",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "hello",
+               "request": "launch",
+               "mainClass": "hello",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "input",
+               "request": "launch",
+               "mainClass": "input",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "nested",
+               "request": "launch",
+               "mainClass": "nested",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "sum",
+               "request": "launch",
+               "mainClass": "sum",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "variables",
+               "request": "launch",
+               "mainClass": "variables",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
+               "name": "voter",
+               "request": "launch",
+               "mainClass": "voter",
+               "projectName": "Java-work_b31ff883"
+          }
+     ]
+}
