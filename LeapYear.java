@@ -10,7 +10,7 @@ public class LeapYear{
            LeapYear f1 = new LeapYear();
                if(f1.isleapyear(year)){
 
-                System.out.println("Yes=>" +year+ " is a leap year");
+                System.out.println("Yes this =>" +year+ " is a leap year");
                }
                else{
                System.out.println("No=>" +year+" is not a leap year");
