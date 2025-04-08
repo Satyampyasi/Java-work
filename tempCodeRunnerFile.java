@@ -1,0 +1,1 @@
+  // float cel  = 5/9(temp1-32);
