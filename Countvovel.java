@@ -1,13 +1,16 @@
 public class Countvovel{
       static  String noofvovels( String name){
          int  flag =0;
+         int  consonant =0;
+         String name1 = name.toLowerCase();
           for(int i=0;i<name.length();i++){
-                 if( name.charAt(i)== 'a'|| name.charAt(i)== 'e' ||name.charAt(i)== 'i'|| name.charAt(i)== 'o' ||name.charAt(i)== 'u' ||name.charAt(i)== 'A'|| name.charAt(i)== 'E'|| name.charAt(i)== 'I'||  name.charAt(i)== 'O'||name.charAt(i)== 'U'){
+                 if( name1.charAt(i)== 'a'|| name1.charAt(i)== 'e' ||name1.charAt(i)== 'i'|| name1.charAt(i)== 'o' ||name1.charAt(i)== 'u'){
                     flag++;
                  }
+                 else consonant++;
 
           }
-          return   " Total number of vovels in "+name+"is" +flag;
+          return   " Total number of vovels in "+name+ " is :" +flag  +" no of consonant is "+consonant;
       }
 
 
