@@ -5,13 +5,19 @@
      "version": "0.2.0",
      "configurations": [
           {
+               "type": "java",
+               "name": "FirstLettter",
+               "request": "launch",
+               "mainClass": "FirstLettter",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
                "name": "Attach to Chrome",
                "port": 9222,
                "request": "attach",
                "type": "chrome",
                "webRoot": "${workspaceFolder}"
           },
-
           {
                "type": "java",
                "name": "Current File",
