@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Flipkart_shop {
-     static int  totalOrders;
+     static int  totalOrders=0;
       int orderId;
       String productname;
       double pricename;
@@ -11,23 +11,27 @@ public class Flipkart_shop {
       void  placeorder(){
           System.out.println("Enter order id :");
          Scanner sc = new Scanner(System.in);
-         
          orderId = sc.nextInt();
+
          System.out.println("Enter product name :");
          productname = sc.nextLine();
+
          System.out.println(" do you want to cancel   true false :");
          status=sc.boolean();
+
          System.out.println("Enter quantity of product :");
          quantity = sc.nextInt();
+
          totalcost( orderId,productname,status,quantity);
       }
 
      void cancelorder(){
-          boolean status = false;
+        return  boolean status = false;
      }    
 
       void totalcost( int orderId , String productname, boolean status, int quantity){
-          
+             totalOrders+=1;
+             
 
      }
      
