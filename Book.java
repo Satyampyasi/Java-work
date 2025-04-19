@@ -41,6 +41,7 @@ public  class Book{
           Scanner sc = new Scanner(System.in);
           System.out.println(" Enter book name");
           f1.settittel(sc.nextLine());
+          
           System.out.println("Enter authir name");
           f1.setauthor(sc.nextLine());
           System.out.println("ENter isbn no");
