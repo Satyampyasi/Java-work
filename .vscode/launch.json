@@ -6,6 +6,13 @@
      "configurations": [
           {
                "type": "java",
+               "name": "Developer_work",
+               "request": "launch",
+               "mainClass": "Developer_work",
+               "projectName": "Java-work_b31ff883"
+          },
+          {
+               "type": "java",
                "name": "FirstLettter",
                "request": "launch",
                "mainClass": "FirstLettter",
