@@ -30,9 +30,9 @@ class Employee{
                          System.out.println(" salary can not be negative ");
                     }
                     else{
-                         // System.out.println("Employee number is: "+this.empNum);
-                         // System.out.println("Employee number is: "+this.EmpName);
-                         // System.out.println("Salary of employee: "+this.Sal);
+                         System.out.println("Employee number is: "+this.empNum);
+                         System.out.println("Employee number is: "+this.EmpName);
+                         System.out.println("Salary of employee: "+this.Sal);
                          check();
                     }
                    }
