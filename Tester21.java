@@ -35,7 +35,7 @@ public class Tester21 {
            public static void main(String[] args){
 
            Scanner sc = new Scanner( System.in);
-           System.err.println("Enter first ame:");
+           System.err.println("Enter first name:");
            String fn = sc.nextLine();
            System.err.println("Last first name:");
            String ln = sc.nextLine();
@@ -46,6 +46,7 @@ public class Tester21 {
            System.err.println("Enter no of:");
            int noOfProject= sc.nextInt();
            employee f1 = new  employee(fn, ln, empid, sal, noOfProject);
+
            f1.calculatesal();
            System.out.println(f1.display());
 
