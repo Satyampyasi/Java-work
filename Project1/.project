@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Java-work</name>
+	<name>Project1</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,11 +14,9 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
 	<filteredResources>
 		<filter>
-			<id>1745510238194</id>
+			<id>1745510238244</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
@@ -27,5 +25,4 @@
 			</matcher>
 		</filter>
 	</filteredResources>
->>>>>>> 7d11d2e (new work)
 </projectDescription>
