@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Ride {
      private String carName;
      private String destination;
-     private int Cartype;
+     private String Cartype;
      private int totPassenger;
    public  Ride(){}
 
@@ -11,12 +11,12 @@ class Ride {
           this.destination = destination;
      }
 
-    public Ride(String destination, int Cartype) {
+    public Ride(String destination, String Cartype) {
           this.destination = destination;
           this.Cartype = Cartype;
      }
 
-     public Ride(String destination, int Cartype, int totPassenger,String name) {
+     public Ride(String destination, String Cartype, int totPassenger,String name) {
           this.destination = destination;
           this.Cartype = Cartype;
           this.totPassenger = totPassenger;
@@ -29,11 +29,11 @@ class Ride {
      public String getCarname() {
           return carName;
      }
-     public void setCartype1(int Cartype) {
+     public void setCartype1(String Cartype) {
           this.Cartype = Cartype;
      }
 
-     public int getcartype1() {
+     public String getcartype1() {
           return Cartype;
      }
 
@@ -53,10 +53,12 @@ class Ride {
           return totPassenger;
      }
 
-     public  int  claculateFare() {
-          if(Cartype==1) return 20*totPassenger; 
-          else if(Cartype==2)    return 30*totPassenger;
-          else return 40*totPassenger;
+     public  String claculateFare() {
+          if(Cartype.equals("bike")) return  "Total "+20*totPassenger; 
+          else if(Cartype.equals("car"))    return "Total "+30*totPassenger;
+          else if( Cartype.equals("bus")) return "Total "+40*totPassenger;
+          else return "invalid car type";
+     
      }
 
      public String getRideSummary() {
@@ -67,21 +69,27 @@ class Ride {
 public class Racing {
      public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
+          System.out.println("car name");
           String name=sc.nextLine();
+          System.out.println("car destination");
           String  dest = sc.nextLine();
-          int type  = sc.nextInt();
+          System.out.println("car type bus,bike,car");
+          String type  = sc.nextLine();
+          System.out.println("tot pasenger:"); 
           int totpas = sc.nextInt();
           sc.nextLine();
           Ride  f1 = new Ride(dest,type,totpas,name);
           System.out.println(f1.getCarname());
           System.out.println(f1.getRideSummary()); 
+
           System.out.println("Enter update Car Name Agaain:");
           name = sc.nextLine();
-          System.out.println("Enter update car type");
-          type  = sc.nextInt();
-          
-          f1.setCartype1(type);
           f1.setCarname(name);
+
+          System.out.println("Enter update car type");
+          type  = sc.nextLine();
+          f1.setCartype1(type);
+         
           System.out.println(f1.getCarname());
           System.out.println(f1.getRideSummary()); 
           
