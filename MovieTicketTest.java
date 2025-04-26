@@ -8,6 +8,7 @@ class MovieTicket{
         this.seatCount=1;
         this.showTime="morning";
     }
+    //stdfhjgfysfdjk
     public MovieTicket(String movieName,int seatCount){
         this.movieName=movieName;
         this.seatCount=seatCount;
