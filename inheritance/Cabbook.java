@@ -37,7 +37,6 @@ User(){
 
 }
 
-
 class Driver extends User{
 String vehicleNumber;
 double rating;
@@ -129,8 +128,7 @@ d2.displayDriverInfo();
      break;
 
      default:System.out.println("invalid input");
-
-          break;
+     break;
    }
 }
 }
