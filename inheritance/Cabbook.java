@@ -26,8 +26,8 @@ User(){
  }
  public void setPhoneNumber(String phoneNumber){
    if(phoneNumber.equals("")){
- System.out.println("Invalid phone number.  ");
- this.phoneNumber="Unknow";
+   System.out.println("Invalid phone number.  ");
+   this.phoneNumber="Unknow";
    }
    else this.phoneNumber=phoneNumber;
  }
@@ -130,5 +130,5 @@ d2.displayDriverInfo();
      default:System.out.println("invalid input");
      break;
    }
-}
+  }
 }
