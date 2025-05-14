@@ -37,13 +37,11 @@ class UPIPayment implements payment{
   }
 }
 class  CheckoutService{
-  private payment paymentmethod;
-   CheckoutService(payment paymentmethod){
-        this.paymentmethod=paymentmethod;
+
+   CheckoutService(payment paymentmethod,double amount){
+      paymentmethod.processPayment(amount);
    }
-   public void processPaymentmethod(double amount){
-       paymentmethod.processPayment(amount);
-   }
+
 }
   
 public class mainclass {
@@ -51,13 +49,13 @@ public class mainclass {
       int a =2;
       switch(a){
       case 1: CreditCardPayment c2 = new CreditCardPayment();
-      CheckoutService c1 = new CheckoutService(c2);
-      c1.processPaymentmethod(500);
+      new CheckoutService(c2,500);
+     
         break;
        case 2:
       PayPalPayment p1 = new  PayPalPayment();
-      CheckoutService c3 = new CheckoutService(p1);
-      c3.processPaymentmethod(200);
+      new CheckoutService(p1,200);
+   
       break;
 
       }
