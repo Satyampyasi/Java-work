@@ -13,6 +13,7 @@ While making transfer into another account, we must get readable
 message about the balance update in both the account.*/
 
 class InvalidCredential extends Exception {
+	
 }
 
 class InsufficentBalance extends Exception {
