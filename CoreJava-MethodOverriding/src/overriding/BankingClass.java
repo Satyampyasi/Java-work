@@ -77,8 +77,8 @@ public class BankingClass {
         try {
             b1.LoginBank(800000, "satyam"); 
             try {
-            	b1.CheckBalance();
-                b1.withdrow(4500);
+            b1.CheckBalance();
+            b1.withdrow(4500);
             } catch (InsufficentBalance b) {
                 System.out.println("Low balance cannot withdraw");
             }
