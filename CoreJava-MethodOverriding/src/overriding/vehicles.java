@@ -1,4 +1,5 @@
 package overriding;
+<<<<<<< HEAD
 
 class EEngine {
     public void start() {
@@ -43,3 +44,28 @@ public class vehicles {
     }
 }
 
+=======
+class Engine{
+	
+}
+
+class bike {
+	private Engine engine;
+	bike(Engine engine){
+		this.engine=engine;
+	}
+	public void bikeStart() {
+		System.out.println("bike start");
+	}
+	public void bikestop() {
+		System.out.println("bike start");
+	}
+  
+}
+class mainclass{
+	public static void main(String[] args){
+		Engine e1 = new Engine();
+		bike b1 = new bike(e1);
+	}
+}
+>>>>>>> 3324efa614b97ac30abbf394884b0b0bc21bee1e
