@@ -1,0 +1,18 @@
+package functionsl_programing;
+
+
+interface checking{
+	public String ispositive(int num);
+}
+
+
+public class positive_nagative {
+
+    public static void main(String[] args) {
+        checking c1 = (num)->{
+    	    if(num>0) return  " positive number: "+num;
+    	    else return "negative number"+num;
+      };
+        System.out.println(c1.ispositive(-45)); 
+	}
+}

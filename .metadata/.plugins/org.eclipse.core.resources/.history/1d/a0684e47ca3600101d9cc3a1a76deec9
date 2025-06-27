@@ -1,0 +1,7 @@
+package Array_programming;
+
+public class palindrom {
+public static void main(String[] args) {
+	System.out.println("hellow palindrom");
+}
+}
