@@ -12,6 +12,8 @@ deposit() etc.
 While making transfer into another account, we must get readable
 message about the balance update in both the account.*/
 
+import java.util.ArrayList;
+
 class InvalidCredential extends Exception {
 	
 }
@@ -32,6 +34,16 @@ class BankAccount {
         this.UserName = userName;
         this.IFSC = iFSC;
         this.balance = balance;
+    }
+    @Override
+    public String toString() {
+        return "BankAccount[" +
+               "accountNumber=" + AccountNo+
+               ", customerName='" + AdharNo + '\'' +
+               ", balance=" + balance +
+               ", branchCode='" +IFSC+ '\'' +
+               ", minimumBalance=" +  +
+               ']';
     }
 
     public void LoginBank(int Adno, String UserN) throws InvalidCredential {
@@ -74,7 +86,10 @@ public class BankingClass {
     public static void main(String[] args) {
         BankAccount b1 = new BankAccount(45454, 800000, "satyam", "SBI454", 80000);
         BankAccount b2 = new BankAccount(2525, 900000, "ram", "CNB454", 4500);
-        
+        ArrayList<BankAccount> people = new ArrayList<>();
+           people.add(b1);
+           people.add(b2);
+           System.out.println(people.get(0));
         try {
             b1.LoginBank(800000, "satyam"); 
             try {
