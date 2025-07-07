@@ -16,11 +16,11 @@ public class Batch2 {
 			String query = ("Insert into student(id,name,age) values(?,?,?)");
 			PreparedStatement psta = con.prepareStatement(query);
 		    while(true) { 
-		    	System.out.println("Enter name: ");
+		    	System.out.print("Enter name: \n age");
 		    	String name= sc.next();
-		    	System.out.println("Enter age: ");
+		    	System.out.print("Enter age: ");
 		    	int age = sc.nextInt();
-		    	System.out.println("Enter id: ");
+		    	System.out.print("Enter id: ");
 		    	int id=sc.nextInt();
 		    	
 		    	psta.setInt(1, id);

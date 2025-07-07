@@ -10,19 +10,22 @@ public class Retrive_by_prepaSta {
  public static void main(String[] args) {
 // it optional to load driver
 	 try( Connection con = DriverManager.getConnection(url, username, password)){
-		 String query = String.format("Select * from Student ");
+		 String query = String.format("Select * from Student where id =1");
 		 PreparedStatement  psta = con.prepareStatement(query);
 //		 psta.setInt(1,1);
 		 
 		   ResultSet resultset = psta.executeQuery();
 		   
-		 while(resultset.next()) {
+		 if(resultset.next()) {
 			 String name = resultset.getString("name");
 			 int age = resultset.getInt("age");
 			 int id = resultset.getInt("Id");
 			 System.out.println("NAME: "+name+"\n"+"Age: "+ age+"\nid: "+id);
+		   }
+		 else {
+			 System.out.println("invalid query  ");
 		 }
-		 System.out.println("Data retrive ");
+		
 	 }
 	 catch(SQLException e) {
 		 System.out.println(e.getMessage());
