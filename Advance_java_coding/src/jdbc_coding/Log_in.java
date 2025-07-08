@@ -134,7 +134,7 @@ public class Log_in {
 				psta.setString(5, EMPLNAME);
 				psta.setString(6, EMPMAILI);
 				psta.setLong(7, EMPNO);
-				psta.executeBatch();
+				psta.executeUpdate();
 				System.out.println("Data stored: ");
 				System.out.println("Enter more data (Y/N): ");
 			   	   String choice3 = sc.next();
