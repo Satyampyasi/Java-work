@@ -6,7 +6,7 @@ class discountCalculator{
      double percentage;
      int couponCode ;
 public void calculateDiscount(double price, double percentage){
-      System.out.println("You got discount of:" +price*(percentage/100) "\nFinal price is:" +(price-(price*(percentage/100))));
+      System.out.println("You got discount of:" +price*(percentage/100) +"\nFinal price is:" +(price-(price*(percentage/100))));
 }
 public void calculateDiscount(double price, double percentage, boolean isMember){
      if(isMember){
