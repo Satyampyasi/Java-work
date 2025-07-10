@@ -30,7 +30,7 @@ public class mainClass {
                     int age = resultset.getInt("AGE");
                     System.out.println(id + " " + name + " " + age);
                 }
-            }
+        }
         } catch(ClassNotFoundException e) {
             System.err.println("Oracle JDBC Driver not found");
             e.printStackTrace();
