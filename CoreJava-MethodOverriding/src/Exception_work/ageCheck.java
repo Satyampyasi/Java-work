@@ -1,8 +1,5 @@
 package Exception_work;
 
-
-
-
 public class ageCheck {  // Class names should start with uppercase letter (convention)
     public void checkAge(int age) throws InvalidAgeException, NotEligibleException {  // Fixed typo in exception name
         if (age > 120 || age <= 0)

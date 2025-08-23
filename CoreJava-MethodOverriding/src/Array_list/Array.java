@@ -18,5 +18,6 @@ public static void main(String[] args) {
    List<Integer> list3 = List.of(4,5,9,6,7);
    
    list.addAll(list3);
+  System.out.println(list);
 }
 }

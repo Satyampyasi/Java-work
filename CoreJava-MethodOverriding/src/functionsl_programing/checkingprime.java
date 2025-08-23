@@ -26,7 +26,7 @@ public class checkingprime{
 						check =true;
 						break;}
 				   }
-				   
+				     
 				if(check)return "not prime";
 				else return "Prime";
 				
