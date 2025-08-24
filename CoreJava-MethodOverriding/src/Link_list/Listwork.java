@@ -16,7 +16,7 @@ public static void main(String[] args) {
 list.get(0);
 list.addFirst(-1);
 list.addLast(5);
-list.remove(x->)
+list.remove(x->);
 	System.out.println(list);
 check num = x->(num){}
 }
