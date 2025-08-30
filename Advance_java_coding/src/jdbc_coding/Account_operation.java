@@ -47,70 +47,70 @@ class Account{
 	
 }
 
-class AccountOperation {
+//class AccountOperation {
+//	
+// 	static Connection con = null;
+//    PreparedStatement sta = null;
+//
+//	  
+//	  String Query=" insert ";
+//	   
+//	  
+//	  try {
+//		  Properties props = new Properties();
+//	      props.load(new FileReader("src/jdbc_coding/driverinfo.properties"));
+//
+//	      String url = props.getProperty("url");
+//	      String user = props.getProperty("user");
+//	      String pwd = props.getProperty("pwd");
+//	      con = DriverManager.getConnection(url, user, pwd);
+//	      PreparedStatement psta = con.prepareStatement(Query);
+//		  
+//	  }
+//	    
+//	  
+//	  catch(Exception e) {
+//		  e.printStackTrace();
+//		  
+//	  }
+//	 
+//	  
+//  
+//    
+//	
+//}
+
+
+
+
+
+
+
+
+
+
+
+//
+//public class Account_operation {
+//	
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println(" Enter your Choice: ");
+//		
+//		
+//		
+//		int choice = sc.nextInt();
+//		 switch(choice){
+//			 
+//			 case 1:{ System.out.println(" Enter your Account number:");
+//			   
+//			 
+//			 }
+//			 
+			 
+		 
 	
- 	static Connection con = null;
-    PreparedStatement sta = null;
-
-	  
-	  String Query=" insert ";
-	   
-	  
-	  try {
-		  Properties props = new Properties();
-	      props.load(new FileReader("src/jdbc_coding/driverinfo.properties"));
-
-	      String url = props.getProperty("url");
-	      String user = props.getProperty("user");
-	      String pwd = props.getProperty("pwd");
-	      con = DriverManager.getConnection(url, user, pwd);
-	      PreparedStatement psta = con.prepareStatement(Query);
-		  
-	  }
-	    
-	  
-	  catch(Exception e) {
-		  e.printStackTrace();
-		  
-	  }
-	 
-	  
-  
-    
-	
-}
 
 
 
 
-
-
-
-
-
-
-
-
-public class Account_operation {
-	
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println(" Enter your Choice: ");
-		
-		
-		
-		int choice = sc.nextInt();
-		 switch(choice){
-			 
-			 case 1:{ System.out.println(" Enter your Account number:");
-			   
-			 
-			 }
-			 
-			 
-		 }
-	}
-
-
-
-}
