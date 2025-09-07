@@ -24,7 +24,9 @@ public class Array_class_method {
 		System.out.println("-------------------------------------------------");
 		
 		String city [] = {"HYD","DELHI","bhopal"};
+		
 		Stream<String> stream4 = Arrays.stream(city);
+		
 		stream4.forEach(System.out::println);
 		
 	}

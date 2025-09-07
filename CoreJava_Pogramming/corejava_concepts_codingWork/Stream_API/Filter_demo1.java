@@ -14,6 +14,7 @@ public class Filter_demo1 {
 				newlist.add(num);
 			}
 		}
+		// using stream 
 		System.out.println(newlist.toString());
 		 System.out.println("***********************************************************");
 		
@@ -24,7 +25,7 @@ public class Filter_demo1 {
 		 listOfnumber.stream().filter(num->num%2!=0).forEach(num->System.out.println("odd :"+num));
 		
 		System.out.println("\n------------------------------------------------------------");
-		// using stream 
+		
 		  List<Integer>  evenlist= listOfnumber.stream()
 		                .filter( num->num%2==0)
 		                      .toList();
