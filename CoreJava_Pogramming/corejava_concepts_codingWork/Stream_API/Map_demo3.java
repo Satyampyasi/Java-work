@@ -12,6 +12,8 @@ public class Map_demo3 {
  s1.stream()
        .map(name->name.toUpperCase().charAt(0))
              .forEach(System.out::println);
+ 
+ System.out.println(" satyam");
 
 	}
 
