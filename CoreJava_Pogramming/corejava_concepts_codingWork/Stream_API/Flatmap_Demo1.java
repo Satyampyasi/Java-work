@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Flatmap_Demo1 {
+	// we use  flatmap when  we have to convert a collection of collection into a single collection 
 
 	public static void main(String[] args) {
 		List<String> fruit = Arrays.asList("mango","apple","banana");
