@@ -9,6 +9,8 @@ public class MapToInt {
 		List<String> names =Arrays.asList("ravi","Amit","neha");
 		IntStream maptoInt = names.stream().mapToInt(String::length);
 		maptoInt.forEach(System.out::println);
+		System.out.println("*****************************************************************");
+		names.stream().mapToInt(String::length).forEach(System.out::println);
 
 	}
 
