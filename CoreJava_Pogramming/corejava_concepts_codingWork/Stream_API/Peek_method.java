@@ -10,9 +10,9 @@ public class Peek_method {
 	
 		List<String>  collect =  	names.stream()
 			.filter(name->name.length()>4)
-		       .peek( name-> System.out.println( "filtered"+ name.toLowerCase()) )
+		       .peek( name-> System.out.println( "filtered: "+ name.toLowerCase()) )
 		          .map(String::toUpperCase)
-		            .peek(name -> System.out.println("Mapped"+name))
+		            .peek(name -> System.out.println("Mapped: "+name))
 		              .toList();
 		            System.out.println(collect);
 
