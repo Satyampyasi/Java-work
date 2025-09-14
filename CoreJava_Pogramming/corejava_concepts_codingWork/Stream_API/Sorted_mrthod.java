@@ -7,7 +7,7 @@ public class Sorted_mrthod {
 	List<Integer> nums = Arrays.asList(5,8,6,4,7,1,3,2);
 	  nums.stream()
 	       .sorted()
-	       .forEach(System.out::println);
+	        .forEach(System.out::println);
 	}
 
 }
