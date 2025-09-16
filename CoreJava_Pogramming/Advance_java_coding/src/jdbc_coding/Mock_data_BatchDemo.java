@@ -14,8 +14,11 @@ public static void main(String[] args) throws FileNotFoundException{
 
 		Connection con = DriverManager.getConnection(url, username, pass);
 		PreparedStatement psta = con.prepareStatement(Query);
+		
 		Scanner sc = new Scanner(fis);
+		
 		sc.nextLine();
+		
 		while(sc.hasNext()) {
 			String split[] = sc.nextLine().split(",");
 			for(int i =0;i<split.length;i++) {
