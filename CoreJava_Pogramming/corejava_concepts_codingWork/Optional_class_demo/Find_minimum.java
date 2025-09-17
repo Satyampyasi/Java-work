@@ -11,17 +11,18 @@ record Student(String name, int age) {
 
 public class Find_minimum {
 public static void main(String[] args) {
-//
-//	List<Student> list = new ArrayList<>();
-//	list.add(new Student("karan",25));
-//	list.add(new Student("Ajaye",12));
-//	list.add(new Student("satyam",22));
-//	
-//	 Optional<Student>  young = list.stream().min(Comparator.comparingInt(Student::age));
-//	 System.out.println(young);
-//	 
+
+	List<Student> list = new ArrayList<>();
+	list.add(new Student("karan",25));
+	list.add(new Student("Ajaye",12));
+	list.add(new Student("satyam",22));
+	
+	 Optional<Student>  young = list.stream().min(Comparator.comparingInt(Student::age));
+	 System.out.println(young);
+	 
+	 
       List<Integer> numbers = Arrays.asList(1,5,8,6,4);
-      Optional<Integer> small = numbers.stream().min(Integer::compare);
+      Optional<Integer> small = numbers.stream().max(Integer::compare);
       
       small.ifPresent(System.out::println);
 	
